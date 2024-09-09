@@ -1,4 +1,36 @@
-# MingCipes
-[![forthebadge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDIuMzU5NDEzMTQ2OTcyNjYiIGhlaWdodD0iMzUiIHZpZXdCb3g9IjAgMCAyMDIuMzU5NDEzMTQ2OTcyNjYgMzUiPjxyZWN0IHdpZHRoPSIxMDYuNjA5Mzk3ODg4MTgzNiIgaGVpZ2h0PSIzNSIgZmlsbD0iIzMxQzRGMyIvPjxyZWN0IHg9IjEwNi42MDkzOTc4ODgxODM2IiB3aWR0aD0iOTUuNzUwMDE1MjU4Nzg5MDYiIGhlaWdodD0iMzUiIGZpbGw9IiMzODlBRDUiLz48dGV4dCB4PSI1My4zMDQ2OTg5NDQwOTE4IiB5PSIyMS41IiBmb250LXNpemU9IjEyIiBmb250LWZhbWlseT0iJ1JvYm90bycsIHNhbnMtc2VyaWYiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGxldHRlci1zcGFjaW5nPSIyIj5NQURFIFdJVEg8L3RleHQ+PHRleHQgeD0iMTU0LjQ4NDQwNTUxNzU3ODEyIiB5PSIyMS41IiBmb250LXNpemU9IjEyIiBmb250LWZhbWlseT0iJ01vbnRzZXJyYXQnLCBzYW5zLXNlcmlmIiBmaWxsPSIjRkZGRkZGIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iOTAwIiBsZXR0ZXItc3BhY2luZz0iMiI+UkVBQ1RKUzwvdGV4dD48L3N2Zz4=)](https://forthebadge.com)
+# 🍽MingCipes
+[![npm][npm-badge]][npm-url]
+[![react][react-badge]][react-url]
+[![javascript][javascript-badge]][javascript-url]
+[![nodejs][nodejs-badge]][nodejs-url]
+[![love][love-badge]][love-url]
 
-MingCipes, this web is a web that provides a food recipe posting system for each user.
+_🍽 MingCipes, this web is a web that provides a food recipe posting system for each user._
+
+## 📍Features
+
+- Login & Register System 🔐
+- Multirole: User, Admin 🧑
+- Posting, Delete, Update 🔁
+- Recipes Category ⛓
+- Searching Recipes By Name & Category 🔍
+- Dashboard 📊
+
+## 📋Todo List
+- Added user profiles, where users can visit other users' profiles 👀
+- Refactoring the code 🔁
+- Added drafts, where users can save recipes to drafts, and also users can post the drafts. 📦
+- Improving the User Interface and Making it More Responsive 📈
+- Added comment feature to each recipe 🗨
+- Added features for shares, likes, and view counts 💡
+
+[nodejs-badge]: https://img.shields.io/badge/made_with-NodeJS-green
+[nodejs-url]: https://github.com
+[love-badge]: https://img.shields.io/badge/</>_with-♥-red
+[love-url]: https://github.com
+[javascript-badge]: https://img.shields.io/badge/made_with-Javascript-yellow
+[javascript-url]: https://github.com
+[react-badge]: https://img.shields.io/badge/made_with-ReactJS-blue
+[react-url]: https://github.com
+[npm-badge]: https://badge.fury.io/js/react.svg
+[npm-url]: https://github.com
