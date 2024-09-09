@@ -1,0 +1,91 @@
+GET http://localhost:5000/resep
+
+###
+POST http://localhost:5000/resep
+Content-Type: application/json
+
+{
+    "namaResep": "Salmon Panggang dengan Sayuran Panggang",
+    "bahan": [
+        "1 cangkir quinoa", 
+        "2 cangkir air", 
+        "1 paprika merah, dicincang", 
+        "1 mentimun, dicincang", 
+        "1 cangkir tomat ceri, dibelah dua", 
+        "1/4 cangkir daun peterseli, dicincang", 
+        "2 sendok makan minyak zaitun", 
+        "1 sendok makan jus lemon", 
+        "Garam dan merica secukupnya"
+    ],
+    "cara": [
+        "Cuci quinoa di bawah air mengalir. Masak quinoa dengan air dalam panci hingga mendidih, kemudian kecilkan api dan masak selama 15 menit atau hingga air terserap. Biarkan dingin.",
+        "Campurkan quinoa yang telah dingin dengan paprika, mentimun, tomat, dan peterseli dalam mangkuk besar.",
+        "Campurkan minyak zaitun, jus lemon, garam, dan merica dalam mangkuk kecil. Tuangkan dressing ke dalam salad dan aduk rata."
+    ]
+}
+
+
+###
+GET http://localhost:5000/resep/find/66cb2b82954ac9f169badaff
+
+###
+PATCH http://localhost:5000/resep/update/66cb321927c5df6776749dae
+Content-Type: application/json
+
+{
+    "namaResep": "Salmon Panggang dengan Sayuran Panggang",
+    "bahan": [
+        "1 cangkir quinoa", 
+        "2 cangkir air", 
+        "1 paprika merah, dicincang", 
+        "1 mentimun, dicincang", 
+        "1 cangkir tomat ceri, dibelah dua", 
+        "1/4 cangkir daun peterseli, dicincang", 
+        "2 sendok makan minyak zaitun", 
+        "1 sendok makan jus lemon", 
+        "Garam dan merica secukupnya"
+    ],
+    "cara": [
+        "Cuci quinoa di bawah air mengalir. Masak quinoa dengan air dalam panci hingga mendidih, kemudian kecilkan api dan masak selama 15 menit atau hingga air terserap. Biarkan dingin.",
+        "Campurkan quinoa yang telah dingin dengan paprika, mentimun, tomat, dan peterseli dalam mangkuk besar.",
+        "Campurkan minyak zaitun, jus lemon, garam, dan merica dalam mangkuk kecil. Tuangkan dressing ke dalam salad dan aduk rata."
+    ]
+}
+
+###
+DELETE http://localhost:5000/resep/delete/66d072279dd2927b149149fc
+
+###
+POST http://localhost:5000/signup
+Content-Type: application/json
+
+{
+    "username": "Muhammad Nabile",
+    "password": "Nabil",
+    "role": "Normal"
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username": "nabiloppoas26@gmail.com",
+    "password": "Nabil"
+}
+
+###
+POST http://localhost:5000/logout
+
+###
+GET http://localhost:5000/dashboard
+
+###
+POST http://localhost:5000/refresh-token
+
+###
+GET http://localhost:5000/
+
+###
+POST http://localhost:5000/resep/add/66d6bb3f249389b929c8d47c
+Content-Type: application/json
