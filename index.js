@@ -14,7 +14,7 @@ mongoose.connect("mongodb://localhost:27017/resep", {
   useUnifiedTopology: true,
 });
 
-const allowedOrigins = ["http://localhost:3000", "http://192.168.100.92:3000"];
+const allowedOrigins = ["http://localhost:3000", "http://192.168.100.92:3000", "https://frontend-ming-cipes.vercel.app/"];
 
 app.use(
   cors({
