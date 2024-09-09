@@ -24,7 +24,7 @@ _🍽 MingCipes, this web is a web that provides a food recipe posting system fo
 - Added comment feature to each recipe 🗨
 - Added features for shares, likes, and view counts 💡
 
-👨‍💻 Check out the mingcipes v1.0 [Frontend](https://pages.github.com/](https://github.com/NabilG-Source/Frontend-MingCipes/tree/main))  version of it
+👨‍💻 Check out the mingcipes v1.0 [Frontend](https://github.com/NabilG-Source/Frontend-MingCipes/tree/main)  version of it
 
 [nodejs-badge]: https://img.shields.io/badge/made_with-NodeJS-green
 [nodejs-url]: https://github.com
